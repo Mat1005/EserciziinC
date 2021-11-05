@@ -1,1 +1,1 @@
-Esercizi in c
+Esercizi in C
