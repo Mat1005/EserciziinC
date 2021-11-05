@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{   int n;
+    int k=0;
+    int a;
+    printf("Inserire un numero affinchè vangano sommati tutti i numeri fino al numero inserito");
+    scanf("%d", &n);
+    for( a=0; a<=n; a++) {
+        
+        k=k+a;
+        a++;
+    }
+    printf("%d", k);
+   
+
+    return 0;
