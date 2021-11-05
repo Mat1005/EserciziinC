@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int a;
+    int c;
+    int r;
+    int p;
+
+    printf("Inserire un numero ");
+    scanf("%d", &a);
+    c = a-1;
+    p = pow(n,c);
+    r = p / a;
+    if(r==1)
+    {
+        printf("Il numero %d è primo.",a);
+    }
+    else if (a==1){
+       printf("Il numero %d non è primo.",a); 
+    }
+    else{
+        printf("Il numero %d non è primo.",a);
+    }
+    
+}
+
