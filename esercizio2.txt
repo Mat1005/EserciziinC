@@ -1,0 +1,42 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    int b;
+    int c;
+    int max=0;
+    int min=0;
+    int somma=0;
+    printf("Inserire tre numeri affinchè vangano sommati il maggiore e il minore");
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    if(a>=b && a>=c)
+    {
+        max = a;
+    }
+    else if(b>=a && b>=c)
+    {
+        max = b;
+    }
+    else if(c>=b && c>=a)
+    {
+        max = c;
+    }
+    if(a<=b && a<=c)
+    {
+        min = a;
+    }
+    else if(b<=a && b<=c)
+    {
+        min = b;
+    }
+    else if(c<=b && c<=a)
+    {
+        min = c;
+    }
+    somma = max+min;
+    printf("Il risultato è: %d", somma);
+
+}
+
