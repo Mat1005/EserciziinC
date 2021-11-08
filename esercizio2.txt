@@ -6,8 +6,8 @@ int main()
     int c;
     int max=0;
     int min=0;
-    int somma=0;
-    printf("Inserire tre numeri affinchè vangano sommati il maggiore e il minore");
+    int diff=0;
+    printf("Inserire tre numeri per ottenere la differenza tra il maggiore e il minore");
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
@@ -35,8 +35,7 @@ int main()
     {
         min = c;
     }
-    somma = max+min;
-    printf("Il risultato è: %d", somma);
+    diff = max-min;
+    printf("Il risultato è: %d", diff);
 
 }
-
