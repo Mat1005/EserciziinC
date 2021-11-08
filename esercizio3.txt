@@ -8,20 +8,23 @@ int main()
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
-    if(a=b && a=c)
-    {
+    if(a==b && a==c){
         printf("Tutti i numeri sono uguali.");
     }
-    else if(b=a && b!=c)
-    {
+    else if(a==b && b!=c){
         printf("I numeri uguali sono: %d e %d ",a,b);
     }
-    else if(c=b && c!=a)
-    {
+    else if(b==c && a!=c){
         printf("I numeri uguali sono: %d e %d ",c,b);
     }
-    else{
+    else if(c==a && c!=b)
+    {
+        printf("I numeri uguali sono: %d e %d ",c,a);
+    }
+    
+        else{
         printf("Non ci sono numeri uguali");
     }
+
     
 }
