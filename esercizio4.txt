@@ -13,17 +13,12 @@ int main()
        numbers[i]=n;
     }
     for(int a=0; a<tot; a++){
-        for(int c=a; c<tot; c++){
-            a++;
-            for(int b=0; b<tot; b++){
-                if(numbers[a]==numbers[b]){
-                    //printf("I numeri %d e %d sono uguali.",numbers[a], numbers[b]);
-                    //numbers[a]
-                
-            }
+         for(int b=0; b<tot; b++){
+            if(numbers[a]==numbers[b] && a!=b && a>b ){
+                    printf("I numeri %d e %d sono uguali.",numbers[a], numbers[b]);
+                    
+                }
         }
-        }
-        printf("%d \n",numbers[tot]);
     }
    
     
